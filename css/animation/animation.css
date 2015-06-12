@@ -1,0 +1,152 @@
+@-webkit-keyframes myAnimation {
+    30%{
+        background-color: blueviolet;
+        width: 50px;
+        height: 600px;
+        top: 0px;
+        left: 95%;
+        -webkit-transform: rotate(180deg);
+    }
+    50%{
+        background-color: crimson;
+        width: 40px;
+        height: 50px;
+        top: 90%;
+        left: 95%;
+        -webkit-transform: rotate(550deg);
+    }
+    70%{
+        background-color: aquamarine;
+        width: 150px;
+        height: 70px;
+        top: 90%;
+        left: 0px;
+        -webkit-transform: rotate(100deg);
+    }
+    90%{
+        background-color: cornflowerblue;
+        width: 800px;
+        height: 400px;
+        top: 0px;
+        left: 0px;
+        -webkit-transform: rotate(950deg);
+    }
+}
+@-moz-keyframes myAnimation {
+    30%{
+        background-color: blueviolet;
+        width: 50px;
+        height: 600px;
+        top: 0px;
+        left: 95%;
+        -moz-transform: rotate(180deg);
+    }
+    50%{
+        background-color: crimson;
+        width: 40px;
+        height: 50px;
+        top: 90%;
+        left: 95%;
+        -moz-transform: rotate(550deg);
+    }
+    70%{
+        background-color: aquamarine;
+        width: 150px;
+        height: 70px;
+        top: 90%;
+        left: 0px;
+        -moz-transform: rotate(100deg);
+    }
+    90%{
+        background-color: cornflowerblue;
+        width: 800px;
+        height: 400px;
+        top: 0px;
+        left: 0px;
+        -moz-transform: rotate(950deg);
+    }
+}
+@-o-keyframes myAnimation {
+    30%{
+        background-color: blueviolet;
+        width: 50px;
+        height: 600px;
+        top: 0px;
+        left: 95%;
+        -o-transform: rotate(180deg);
+    }
+    50%{
+        background-color: crimson;
+        width: 40px;
+        height: 50px;
+        top: 90%;
+        left: 95%;
+        -o-transform: rotate(550deg);
+    }
+    70%{
+        background-color: aquamarine;
+        width: 150px;
+        height: 70px;
+        top: 90%;
+        left: 0px;
+        -o-transform: rotate(100deg);
+    }
+    90%{
+        background-color: cornflowerblue;
+        width: 800px;
+        height: 400px;
+        top: 0px;
+        left: 0px;
+        -o-transform: rotate(950deg);
+    }
+}
+@keyframes myAnimation {
+    30%{
+        background-color: blueviolet;
+        width: 50px;
+        height: 600px;
+        top: 0px;
+        left: 95%;
+        transform: rotate(180deg);
+    }
+    50%{
+        background-color: crimson;
+        width: 40px;
+        height: 50px;
+        top: 90%;
+        left: 95%;
+        transform: rotate(550deg);
+    }
+    70%{
+        background-color: aquamarine;
+        width: 150px;
+        height: 70px;
+        top: 90%;
+        left: 0px;
+        transform: rotate(100deg);
+    }
+    90%{
+        background-color: cornflowerblue;
+        width: 800px;
+        height: 400px;
+        top: 0px;
+        left: 0px;
+        transform: rotate(950deg);
+    }
+}
+
+
+
+.animation {
+
+    height: 200px;
+    width: 300px;
+    background-color: lightsalmon;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+
+    -webkit-animation: myAnimation 5s linear infinite;
+
+}

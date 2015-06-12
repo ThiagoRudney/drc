@@ -1,0 +1,13 @@
+.scale {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: darkorange;
+    -webkit-transform: scale(2, 4);
+    -moz-transform: scale(2, 4);
+    -ms-transform: scale(2, 4);
+    -o-transform: scale(2, 4);
+    transform: scale(2, 4);
+}

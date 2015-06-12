@@ -1,0 +1,22 @@
+.transition {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    -webkit-transition: width 600ms, height 800ms, background-color 2000ms, -webkit-transform 1000ms;
+    -moz-transition: width 600ms, height 800ms, background-color 2000ms, -moz-transform 1000ms;
+    -ms-transition: width 600ms, height 800ms, background-color 2000ms, -ms-transform 1000ms;
+    -o-transition: width 600ms, height 800ms, background-color 2000ms, -o-transform 1000ms;
+    transition: width 600ms, height 800ms, background-color 2000ms, transform 1000ms;
+}
+
+.transition:hover{
+    width: 500px;
+    height: 500px;
+    background-color: skyblue;
+
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}

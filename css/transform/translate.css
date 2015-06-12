@@ -1,0 +1,10 @@
+.translate{
+    width: 500px;
+    height: 300px;
+    background-color: lightblue;
+    -webkit-transform: translate(500px, 500px);
+    -moz-transform: translate(500px, 500px);
+    -ms-transform: translate(500px, 500px);
+    -o-transform: translate(500px, 500px);
+    transform: translate(500px, 500px);
+}
