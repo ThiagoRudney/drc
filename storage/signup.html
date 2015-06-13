@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css"/>
+</head>
+<body>
+
+<form>
+
+    <fieldset>
+
+        <legend>New User</legend>
+
+        <label for="name">* Name:</label>
+        <input id="name" name="name" type="text" placeholder="Full name"/>
+        <br/>
+
+        <label for="email">* Email:</label>
+        <input id="email" name="email" type="email" placeholder="email@email.com"/>
+        <br/>
+
+        <label for="phone-area">Phone:</label>
+        <input id="phone-area" name="phoneArea" type="text" maxlength="2" placeholder="Area"/>
+        <input id="phone" name="phone" type="text" placeholder="Number"/>
+
+        <label for="cell-area">Cell:</label>
+        <input id="cell-area" name="cellArea" type="text" maxlength="2" placeholder="Area"/>
+        <input id="cell" name="cell" type="text" placeholder="Number"/>
+        <br/>
+
+        <label for="zip-head">* Zip:</label>
+        <input id="zip-head" name="zipHead" type="text" maxlength="5"/>
+        <span>-</span>
+        <input id="zip-tail" name="zipTail" type="text" maxlength="3"/>
+        <br/>
+
+        <!--<label for="address">Address:</label>-->
+        <!--<input id="address" name="address" type="text" readonly/>-->
+        <!--<br/>-->
+
+        <!--<label for="number">Number:</label>-->
+        <!--<input id="number" name="number" type="text"/>-->
+
+        <!--<label for="district">District:</label>-->
+        <!--<input id="district" name="district" type="text" readonly/>-->
+
+
+        <!--<label for="city">City:</label>-->
+        <!--<input id="city" name="city" type="text" readonly/>-->
+
+        <!--<label for="state">State:</label>-->
+        <!--<input id="state" name="state" type="text" readonly/>-->
+        <!--<br/>-->
+
+        <div class="controls">
+            <input id="buttonDelete" type="button" value="Delete" disabled/>
+            <input id="buttonSave" type="button" value="Save"/>
+        </div>
+
+    </fieldset>
+
+</form>
+
+<script src="signup.js"></script>
+</body>
+</html>

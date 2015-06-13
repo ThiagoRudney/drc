@@ -1,7 +1,7 @@
 (function(){
 
     function success(geoPosition) {
-        showIt(geoPosition);
+        showIt(geoPosition.coords);
 
     }
 

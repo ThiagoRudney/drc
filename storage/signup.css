@@ -1,0 +1,107 @@
+body{
+    background-color: tomato;
+}
+
+form{
+    padding: 20px;
+    width: 800px;
+    margin: 60px auto;
+    font-size: 24px;
+}
+
+form label{
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+    width: 100px;
+}
+
+form input{
+    margin-top: 10px;
+    outline-color: tomato;
+    font-size: inherit;
+    width: 610px;
+    padding: 10px;
+}
+
+form,
+form fieldset,
+form input {
+    border-radius: 7px;
+    border-color: tomato;
+}
+
+form input[type="button"]{
+    outline-color: #333;
+    width: 150px;
+    text-align: center;
+}
+
+form label[for="state"]{
+    width: 70px;
+}
+
+form label[for="cell-area"]{
+    width: 155px;
+}
+
+form input[readonly]{
+    background-color: rgba(255, 99, 71, 0.75);
+}
+
+form input[type="button"]:disabled{
+    outline-color: #ccc;
+    color: #666;
+    border-color: #ccc;
+    background-color: #444;
+}
+
+form legend,
+form label,
+form span,
+form input[type="button"] {
+    color: white;
+}
+
+form,
+form input[type="button"]{
+    background-color: #333;
+}
+
+.controls {
+    text-align: right;
+}
+
+#zip-head {
+    width: 75px;
+}
+
+#zip-tail {
+    width: 45px;
+}
+
+#number {
+    width: 80px;
+}
+
+#district {
+    width: 385px;
+}
+
+#state {
+    width: 27px;
+}
+
+#city {
+    width: 470px;
+}
+
+#phone-area,
+#cell-area {
+    width: 55px;
+}
+
+#phone,
+#cell {
+    width: 120px;
+}
