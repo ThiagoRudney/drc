@@ -1,0 +1,30 @@
+#reflect {
+    padding: 10px 0;
+    width: 250px;
+    height: 750px;
+    margin: 0 auto;
+
+}
+
+.touch #reflect{
+    background-color: deepskyblue;
+}
+
+.no-touch #reflect{
+    background-color: deeppink;
+}
+
+.cssreflections #reflect img {
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(white));
+}
+
+.no-cssreflections #reflect:after {
+    content: ""; display: block;
+    background: -moz-element(#reflect) no-repeat;
+    width: auto;
+    height: 375px;
+    margin-bottom: 100px;
+    -moz-transform: scaleY(-1);
+}
+
+/* VER CCSS COMPONENTS CSS http://www.sitepoint.com/introducing-ccss-component-css/ */

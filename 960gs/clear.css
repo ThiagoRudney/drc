@@ -1,0 +1,21 @@
+div[class*="grid"] {
+    height: 200px;
+}
+.skyblue {
+    background-color: skyblue;
+}
+.tomato {
+    background-color: tomato;
+}
+.graphite {
+    background-color: #333;
+}
+.purple{
+    background-color: purple;
+}
+.cornsilk{
+    background-color: cornsilk;
+}
+.lime{
+    background-color: lime;
+}
