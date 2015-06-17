@@ -1,0 +1,28 @@
+.left{
+    background-color: lightpink;
+}
+
+.left .sub-1{
+    background-color: pink;
+}
+
+.left .sub-2{
+    background-color: hotpink;
+}
+
+.right{
+    background-color: skyblue;
+}
+
+.right .sub-1{
+    background-color: aliceblue;
+}
+.right .sub-2{
+    background-color: cornflowerblue;
+}
+.right .sub-3{
+    background-color: steelblue;
+}
+.right .sub-4{
+    background-color: darkblue;
+}

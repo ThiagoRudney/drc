@@ -1,0 +1,22 @@
+.header {
+    height: 100px;
+    background-color: #ccc;
+}
+
+.content1 {
+    height: 600px;
+    background-color: #aaa;
+}
+.content2 {
+    height: 600px;
+    background-color: #999;
+}
+.content3 {
+    height: 600px;
+    background-color: #777;
+}
+
+.footer {
+    height: 100px;
+    background-color: #ccc;
+}
