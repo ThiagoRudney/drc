@@ -1,0 +1,16 @@
+body{
+    position: relative;
+    font-size: 24px;
+}
+#page1{
+    background-color: salmon;
+    margin-top: 50px;
+}
+
+#page2{
+    background-color: gold;
+}
+
+#page3{
+    background-color: skyblue;
+}

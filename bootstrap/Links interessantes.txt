@@ -1,0 +1,9 @@
+http://responsive.vermilion.com/compare.php
+http://getbootstrap.com/javascript/#js-programmatic-api
+http://bootsnipp.com/
+http://bootswatch.com/
+http://startbootstrap.com/bootstrap-resources/
+http://tutorialzine.com/2013/07/50-must-have-plugins-for-extending-twitter-bootstrap/
+http://www.bootply.com/
+https://github.com/JasonMortonNZ/bs3-sublime-plugin
+http://themeforest.net/
