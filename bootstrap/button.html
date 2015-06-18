@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Button</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Buttons</h1>
+    <div class="row">
+        <button class="btn btn-default btn-xs">Button 1</button>
+        <button class="btn btn-primary btn-block">Button 2</button>
+        <button class="btn btn-success btn-sm">Button 3</button>
+        <button class="btn btn-info btn-md">Button 4</button>
+        <button class="btn btn-warning active">Button 5</button>
+        <button class="btn btn-danger disabled">Button 6</button>
+        <button class="btn btn-link btn-lg">Button 7</button>
+
+        <!--input:button.btn.btn-warning[value=Warning]+a.btn.btn-danger[href=#]{Danger}-->
+
+        <input type="button" value="Warning" class="btn btn-warning"/><a href="#" class="btn btn-danger">Danger</a>
+    </div>
+
+    <h1>Button Group</h1>
+
+    <div class="row">
+
+        <!--.container>(.col-md-12.btn-group.btn-group-lg>button.btn.btn-primary{Button$}*3)+(.col-md-12.btn-group>button.btn.btn-primary{Button$}*3)+(.col-md-12.btn-group.btn-group-sm>button.btn.btn-info{Button$}*3)+(.col-md-12.btn-group.btn-group-xs>button.btn.btn-warning{Button$}*3)+(.col-md-2.btn-group-vertical>button.btn.btn-success{Button$}*3)-->
+
+
+        <div class="col-md-12 btn-group btn-group-lg">
+            <button class="btn btn-primary">Button1</button>
+            <button class="btn btn-primary">Button2</button>
+            <button class="btn btn-primary">Button3</button>
+        </div>
+        <div class="col-md-12 btn-group">
+            <button class="btn btn-primary">Button1</button>
+            <button class="btn btn-primary">Button2</button>
+            <button class="btn btn-primary">Button3</button>
+        </div>
+        <div class="col-md-12 btn-group btn-group-sm">
+            <button class="btn btn-info">Button1</button>
+            <button class="btn btn-info">Button2</button>
+            <button class="btn btn-info">Button3</button>
+        </div>
+        <div class="col-md-12 btn-group btn-group-xs">
+            <button class="btn btn-warning">Button1</button>
+            <button class="btn btn-warning">Button2</button>
+            <button class="btn btn-warning">Button3</button>
+        </div>
+        <div class="col-md-2 btn-group-vertical">
+            <button class="btn btn-success">Button1</button>
+            <button class="btn btn-success">Button2</button>
+            <button class="btn btn-success">Button3</button>
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

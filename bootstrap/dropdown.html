@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<!--.container>.dropdown>(button.btn.btn-danger.dropdown-toggle[data-toggle=dropdown]{Dropdown}>span.caret)+ul.dropdown-menu>(li*3>a[href=#]{Sub-Item$})+(li.divider)+(li*3>a[href=#]{Sub-Item$@4})-->
+
+<div class="container">
+    <div class="dropdown">
+        <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Dropdown<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Sub-Item1</a></li>
+            <li><a href="#">Sub-Item2</a></li>
+            <li><a href="#">Sub-Item3</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Sub-Item4</a></li>
+            <li><a href="#">Sub-Item5</a></li>
+            <li><a href="#">Sub-Item6</a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
