@@ -1,0 +1,39 @@
+@number: 1+2+3*4;
+@pixel: 2+4px+5;
+@cm: 2cm + 4px + 5mm;
+@pt: 2pt + 4px + 5mm;
+
+
+
+.gap(@value){
+  margin: @value;
+  padding: @value / 2;
+}
+.gap(@margin; @padding){
+  margin: @margin;
+  padding: @padding;
+}
+
+.item-1{
+  .gap(10px);
+}
+
+.item-2{
+  .gap(10px; 20px);
+}
+
+.test-number{
+  content: @number;
+}
+
+.test-pixel{
+  content: @pixel;
+}
+
+.test-cm{
+  content: @cm;
+}
+
+.test-pt{
+  content: @pt;
+}

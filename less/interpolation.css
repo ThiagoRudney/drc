@@ -1,0 +1,8 @@
+div.item {
+  width: 300px;
+  height: 300px;
+  /* iterpolação de texto e variavel para colocar o px, de forma que n fique como texto.*/
+  background-color: #cccccc;
+  background-image: url('http://lorempixel.com/300/300/cats');
+  /*interpolação de variável para conteudos textuais*/
+}

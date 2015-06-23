@@ -1,0 +1,23 @@
+.gap,
+.item-1,
+.item-2,
+.item-3 {
+  margin: 10px;
+  padding: 5px;
+}
+.font,
+.item-1,
+.item-2,
+.item-3 {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
+.item-1 {
+  color: red;
+}
+.item-2 {
+  color: blue;
+}
+.item-3 {
+  color: green;
+}

@@ -1,0 +1,22 @@
+.parent{
+  color: #f00;
+
+  .child{
+    color: #0000ff;
+  }
+
+}
+
+div {
+  background-color: lime;
+  >h1{
+    background-color: yellow;
+  }
+  &:hover{
+  /*o & repete o elemento pai*/
+    background-color: tomato;
+  }
+  &.product{
+    text-align: center;
+  }
+}

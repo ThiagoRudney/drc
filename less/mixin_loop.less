@@ -1,0 +1,11 @@
+.getSelector(@index;@height;@width;@category) when (@index > 0){
+  .getSelector(@index - 1;@height;@width;@category);
+
+  .item-@{index}{
+    width: ~'@{width}px';
+    height: ~'@{height}px';
+    background-image: url('http://lorempixel.com/@{height}/@{width}/@{category}/@{index}');
+  }
+}
+
+.getSelector(10;200;200;'cats');

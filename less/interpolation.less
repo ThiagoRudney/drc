@@ -1,0 +1,14 @@
+@path: 'http://lorempixel.com';
+@size:300;
+@category: 'cats';
+
+@className: item;
+
+div.@{className}{
+  width: ~'@{size}px';
+  height: ~'@{size}px';
+  /* iterpolação de texto e variavel para colocar o px, de forma que n fique como texto.*/
+  background-color: #cccccc;
+  background-image: url('@{path}/@{size}/@{size}/@{category}');
+  /*interpolação de variável para conteudos textuais*/
+}
